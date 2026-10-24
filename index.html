@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Служба по контракту: как поступить и куда обратиться</title>
+<meta name="description" content="Демо-визитка набора на контрактную службу: порядок поступления, условия, что взять с собой, заявка. Условия указывает заказчик.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto+Slab:wght@600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="bar">
+  <div class="shell">
+    <a class="mark" href="#top"><span class="slot">название организации</span></a>
+    <a class="btn" href="#zayavka">Оставить заявку</a>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="hero__img"><img src="assets/hero.webp" srcset="assets/hero-1200.webp 1200w, assets/hero.webp 1920w" sizes="100vw" alt="Стол у окна: паспорт, папка с документами и ручка" width="1920" height="1080" fetchpriority="high"></div>
+  <div class="shell">
+    <div class="hero__copy">
+      <p class="demo-for"><img src="assets/zakazchik.jpg" alt="" width="40" height="40">Демо для Андрея (postaandreay) · по заказу «Создать. Визитку»</p>
+      <span class="eyebrow">Военная служба по контракту · <span class="slot">регион</span></span>
+      <h1>Служба по контракту: как поступить и куда обратиться</h1>
+      <p class="lede">Коротко и по делу: порядок, условия и что взять с собой.</p>
+      <div class="cta">
+        <a class="btn" href="#zayavka">Оставить заявку</a>
+        <a class="btn btn--ghost" href="#usloviya">Узнать условия</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="poryadok">
+  <div class="shell">
+    <h2>Как поступить</h2>
+    <ol class="steps">
+      <li><h3>Обращение</h3><p>Оставляете заявку или звоните в пункт отбора.</p></li>
+      <li><h3>Документы</h3><p>Сотрудник проверяет документы и отвечает на вопросы.</p></li>
+      <li><h3>Отбор</h3><p>Проверка здоровья и подготовки, беседа.</p></li>
+      <li><h3>Контракт</h3><p>После отбора подписывается контракт.</p></li>
+    </ol>
+    <p class="note">Порядок в этой концепции примерный. Точные этапы и сроки указывает пункт отбора.</p>
+  </div>
+</section>
+
+<section class="section" id="usloviya">
+  <div class="shell">
+    <h2>Условия службы</h2>
+    <ul class="board">
+      <li><b>Срок контракта<small>Из официальных источников</small></b><span class="val slot">уточнить у заказчика</span></li>
+      <li><b>Выплаты и довольствие<small>Размер и порядок выплат</small></b><span class="val slot">уточнить у заказчика</span></li>
+      <li><b>Социальные гарантии<small>Что положено кандидату и семье</small></b><span class="val slot">уточнить у заказчика</span></li>
+      <li><b>Требования к кандидату<small>Возраст, образование, здоровье</small></b><span class="val slot">уточнить у заказчика</span></li>
+    </ul>
+    <p class="note">Условия публикуются только по данным заказчика и официальным источникам. Мы их не придумываем.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell two">
+    <div>
+      <h2>Что взять с собой</h2>
+      <ul class="docs">
+        <li>Паспорт</li>
+        <li>Военный билет или удостоверение, если есть</li>
+        <li>Документы об образовании</li>
+        <li>Документы, подтверждающие квалификацию, если есть</li>
+      </ul>
+      <p class="note">Примерный перечень. Полный список назовут в пункте отбора.</p>
+    </div>
+    <div>
+      <h2>Частые вопросы</h2>
+      <div class="faq">
+        <details><summary>Заявка меня к чему-то обязывает?</summary><div class="a">Нет. Заявка – это просьба о консультации. Контракт подписывается отдельно, после отбора.</div></details>
+        <details><summary>Как узнать точные условия?</summary><div class="a">Позвоните или оставьте заявку: ответит сотрудник пункта отбора. Актуальные условия – только у него.</div></details>
+        <details><summary>Кто может поступить?</summary><div class="a">Требования указывает пункт отбора: <span class="slot">возраст, образование, здоровье</span>.</div></details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section contact" id="zayavka">
+  <div class="shell two">
+    <div>
+      <h2>Оставить заявку</h2>
+      <p>Укажите имя и телефон, с вами свяжутся и расскажут об условиях.</p>
+      <dl>
+        <div><dt>Пункт отбора</dt><dd class="slot">адрес</dd></div>
+        <div><dt>Телефон</dt><dd class="slot">телефон</dd></div>
+        <div><dt>Часы работы</dt><dd class="slot">часы</dd></div>
+      </dl>
+    </div>
+    <form class="form" id="form" novalidate>
+      <div class="field"><label for="f-name">Имя</label><input id="f-name" name="name" autocomplete="given-name" required></div>
+      <div class="field"><label for="f-tel">Телефон</label><input id="f-tel" name="tel" type="tel" autocomplete="tel" required></div>
+      <div class="field"><label for="f-city">Город</label><input id="f-city" name="city" autocomplete="address-level2"></div>
+      <label class="consent"><input type="checkbox" id="f-ok"><span>Согласен на обработку персональных данных</span></label>
+      <button class="btn" type="submit">Оставить заявку</button>
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="shell">
+    <span><span class="slot">организация</span> · <span class="slot">город</span></span>
+    <span>Демо-концепция страницы. Форма на ней не отправляет данные.</span>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var form = document.getElementById('form'), status = document.getElementById('status');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    status.className = 'status';
+    if (!form.name.value.trim() || !form.tel.value.trim()) { status.textContent = 'Укажите имя и телефон.'; return; }
+    if (!document.getElementById('f-ok').checked) { status.textContent = 'Нужно согласие на обработку данных.'; return; }
+    status.className = 'status ok';
+    status.textContent = 'Это демо: заявка никуда не отправлена.';
+  });
+})();
+</script>
+</body>
+</html>
